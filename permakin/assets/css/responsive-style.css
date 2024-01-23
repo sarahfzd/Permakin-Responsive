@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    .bottom-contact {
+        display: none;
+    }
+
+    .navbar .container-fluid .contact-us-btn {
+        display: none;
+    }
+
+    .top-menu-hr {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar .container-fluid .contact-us-btn {
+        display: none;
+    }
+}

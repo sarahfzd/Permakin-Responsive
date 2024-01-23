@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>permakin - professional tailor clothing alteration elementor</title>
+    <link rel="icon" type="png/x-icon" href="/assets/img/favicon.png">
+    <link rel="styleSheet" href="/assets/css/bootstrap.min.css">
+    <link rel="styleSheet" href="/assets/css/pub-style.css">
+    <link rel="styleSheet" href="/assets/css/responsive-style.css">
+    <link rel="styleSheet" href="/assets/css/fonts.css">
+    <link rel="styleSheet" href="/assets/css/aos.css">
+
+</head>
+
+<body>
+    <div class="header col-md-11 mx-auto">
+        <div class="bottom-contact row col-md-11 pt-2">
+            <div class="social-icons col-md-6">
+                <div>
+                    <a class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-facebook me-2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <a class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-twitter me-2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <a class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-instagram me-2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <a class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-linkedin me-2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <a class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-youtube me-2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-infos col-md-6">
+                <div class="contact-info text-nowrap">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-telephone-fill me-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                    <span>021-3456-789</span>
+                </div>
+                <div class="contact-info text-nowrap">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-envelope-fill me-1" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                    </svg>
+                    <span>PERMAKIN@GMAIL.COM</span>
+                </div>
+            </div>
+        </div>
+        <hr class="top-menu-hr">
+        <!-- Navbar -->
+        <div class="navbar col-md-11 col-sm-11 col-11 d-flex flex-row">
+            <nav class="navbar navbar-expand-lg navbar-dark w-100">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand col-md-2 col-7 col-sm-4 me-0" href="#"><img class="justify-content-end w-100"
+                            src="assets/img/Logo.png"></a>
+                    <div class="collapse navbar-collapse justify-content-center col-7" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ms-2 me-2">
+                                <a class="nav-link" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item ms-2 me-2">
+                                <a class="nav-link" href="#">OUR SERVICES</a>
+                            </li>
+                            <li class="nav-item ms-2 me-2">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item dropdown ms-2 me-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PAGES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ms-2 me-2">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <button class="btn contact-us-btn col-2" type="button">CONTACT US</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="header-note col-md-6 col-sm-10 col-10 mx-auto p-4">
+        <div data-aos="fade-down" data-aos-duration="2000">
+            <span class="mx-auto fw-lighter h6">WELCOME</span>
+            <hr>
+            <h1 class="mx-auto h1 display-1 mb-2">WE MAKE CLOTHS THAT SUIT YOU</h1>
+            <p class="text-wrap mt-3 mb-2 fw-light h6">Lorem ipsum dolor sit amet consec perdiet interdum est mattis
+                purus facilisis. Vitae elementum enim ipsum morbi lacus ipsum semper in elit.</p>
+        </div>
+
+        <button data-aos="zoom-in" data-aos-duration="1000" class="btn mt-3">BOOK AN APPOINTMENT</button>
+    </div>
+    <div class="parallax"></div>
+
+    <div class="background-style mx-auto">
+        <div class="second-container mt-3 col-md-10 col-sm-11 col-10">
+
+            <div class="d-flex dots-img justify-content-md-end justify-content-start">
+                <img class="me-3 mt-3" src="assets/img/dots.png" alt="#">
+                <img class="ms-3 me-3 mt-3" src="assets/img/dots.png" alt="#">
+            </div>
+
+            <!-- 'about content' -->
+            <div class="about-content col-md-12 col-sm-12 col-12 d-grid pt-3 mt-3 w-100">
+                <div data-aos="fade-down" data-aos-duration="1000" class="title mb-3 col-md-8 mx-auto col-sm-12">
+                    <span class="mx-auto fw-lighter h6">ABOUT</span>
+                    <hr>
+                    <h2 class="mx-auto h2 display-4 fw-light mb-4">THE ART OF BESPOKE TAILORING</h2>
+                </div>
+                <div class="description position-relative mt-4 col-12 col-lg-12 col-md-12 col-sm-12">
+                    <div data-aos="fade-down" data-aos-duration="1000"
+                        class="description-img mb-5 pb-5 col-12 col-md-12 col-sm-12">
+                        <img class="w-100 pb-5" src="assets/img/1.jpg" title="THE ART OF BESPOKE TAILORING"
+                            alt="THE ART OF BESPOKE TAILORING">
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000"
+                        class="description-note aos-animate aos-init col-12 col-md-9 col-sm-9 mx-auto position-absolute top-100 start-50 translate-middle">
+                        <h4 class="fs-1 italiana">DISCOVER TRUE QUALITY</h4>
+                        <p class="fs-4 mt-3 mb-4">Sed sapien neque lectus quis sit odio. Pulvinar donec a id a.
+                            Libero
+                            purus proin ut egestas quis posuere. Mauris at amet pellentesque tempor rhoncus.</p>
+                        <a href="#"><button class="btn mt-3" id="learnMoreBtn">LEARN MORE</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 'style content' -->
+            <div class="style-content col-md-12 col-sm-12 col-12 d-sm-flex align-items-center position-relative pt-5">
+                <div data-aos="fade-down" data-aos-duration="1000"
+                    class="description-img flex-shrink-0 col-12 col-sm-6 col-md-6 col-lg-7 pt-5 mt-5">
+                    <img class="w-100" src="assets/img/2.jpg" title="UNIQUE STYLES" alt="UNIQUE STYLES">
+                </div>
+
+                <div class="col-1 space-div"></div>
+
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    class="description flex-grow-1 col-12 col-sm-5 col-md-5 col-lg-4">
+                    <div class="title mb-3 mt-3">
+                        <span>STYLE</span>
+                        <hr>
+                        <h2 class="display-4">UNIQUE STYLES</h2>
+                    </div>
+                    <div class="description-note mb-3 mt-3">
+                        <p class="fs-6 mt-3 mb-3">Lorem ipsum dolor sit amet consectetur. Lectus est senectus lacus
+                            vulputate
+                            erat tempus aenean adipiscing. Eu massa maecenas lorem massa quis fusce. Eget risus vitae
+                            pretium ut egestas lorem in. Vitae placerat elementum arcu nisi</p>
+                        <a href="#"><button class="btn mt-3" id="learnMoreBtn">LEARN MORE</button></a>
+                    </div>
+                </div>
+                <div class="dots-img position-absolute d-none d-xl-block">
+                    <img src="assets/img/dots.png">
+                </div>
+            </div>
+
+            <!-- 'craft content' -->
+            <div class="craft-content col-md-12 col-sm-12 col-12 d-sm-flex align-items-center position-relative">
+                <div data-aos="fade-down" data-aos-duration="1000"
+                    class="description col-12 col-sm-5 col-md-5 col-lg-5 flex-grow-1 me-3">
+                    <div class="title mb-3">
+                        <span>CRAFT</span>
+                        <hr>
+                        <h2 class="display-4">THE CRAFTSMAN SHIP</h2>
+                    </div>
+                    <div class="description-note mb-3 mt-3">
+                        <p class="fs-6 mt-3 mb-3">Lorem ipsum dolor sit amet consectetur. Lectus est senectus lacus
+                            vulputate erat tempus aenean adipiscing. Eu massa maecenas lorem massa quis fusce. Eget
+                            risus vitae pretium ut egestas lorem in. Vitae placerat elementum arcu nisi</p>
+                        <a href="#"><button class="btn mt-3" id="learnMoreBtn">LEARN MORE</button></a>
+                    </div>
+                </div>
+                <div class="col-1 space-div"></div>
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    class="description-img flex-shrink-0 col-12 col-sm-6 col-md-6 col-lg-6">
+                    <img class="w-100" src="assets/img/3.jpg" title="THE CRAFTSMAN SHIP" alt="THE CRAFTSMAN SHIP">
+                </div>
+                <div class="dots-img position-absolute d-none d-xl-block">
+                    <img src="assets/img/dots.png">
+                </div>
+            </div>
+
+            <!-- 'service content' -->
+            <div class="service-content col-md-12 col-sm-12 col-12 d-sm-flex justify-content-center">
+                <div class="description text-center">
+                    <div data-aos="fade-down" data-aos-duration="1000" class="title mb-3 mx-auto">
+                        <span>SERVICES</span>
+                        <hr>
+                        <h2 class="display-3">OUR SPECIAL SERVICES</h2>
+                        <p class="mb-3">Lorem ipsum dolor sit amet conse est senectus lacus vulputate tempus.</p>
+                    </div>
+                    <div class="description-images col-12 mt-3 mb-3">
+                        <div class="row mt-3">
+                            <div class="description-img position-relative col-12 col-sm-4 col-md-4 mt-3">
+                                <img data-aos="fade-up" data-aos-duration="1000" class="w-100"
+                                    src="assets/img/person.jpg" title="person" alt="person">
+                                <div data-aos="fade-down" data-aos-duration="2000"
+                                    class="bg-color position-absolute top-50 start-50 translate-middle col-7">
+                                    <a href="#" class="text-reset text-decoration-none"><span
+                                            class="fs-2 italiana">STANDARD</span></a>
+                                    <h6 class="fs-6">ALTERATION SERVICES</h6>
+                                </div>
+                            </div>
+                            <div class="description-img position-relative col-12 col-sm-4 col-md-4 mt-3">
+                                <img data-aos="fade-up" data-aos-duration="1000" class="w-100"
+                                    src="assets/img/person.jpg">
+                                <div data-aos="fade-down" data-aos-duration="2000"
+                                    class="bg-color position-absolute top-50 start-50 translate-middle col-7">
+                                    <a href="#" class="text-reset text-decoration-none"><span
+                                            class="fs-2 italiana">BRIDAL</span></a>
+                                    <h6 class="fs-6">ALTERATION SERVICES</h6>
+                                </div>
+                            </div>
+                            <div class="description-img position-relative col-12 col-sm-4 col-md-4 mt-3">
+                                <img data-aos="fade-up" data-aos-duration="1000" class="w-100"
+                                    src="assets/img/person.jpg">
+                                <div data-aos="fade-down" data-aos-duration="2000"
+                                    class="bg-color position-absolute top-50 start-50 translate-middle col-7">
+                                    <a href="#" class="text-reset text-decoration-none"><span
+                                            class="fs-2 italiana">SPECIALITY</span></a>
+                                    <h6 class="fs-6">ALTERATION SERVICES</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="description-img position-relative col-12 col-sm-4 col-md-4 mt-3">
+                                <img data-aos="fade-up" data-aos-duration="1000" class="w-100"
+                                    src="assets/img/person.jpg">
+                                <div data-aos="fade-down" data-aos-duration="2000"
+                                    class="bg-color position-absolute top-50 start-50 translate-middle col-7">
+                                    <a href="#" class="text-reset text-decoration-none"><span
+                                            class="fs-2 italiana">CELEBRITY EVENTS</span></a>
+                                    <h6 class="fs-6">ALTERATION SERVICES</h6>
+                                </div>
+                            </div>
+                            <div class="description-img position-relative col-12 col-sm-4 col-md-4 mt-3">
+                                <img data-aos="fade-up" data-aos-duration="1000" class="w-100"
+                                    src="assets/img/person.jpg">
+                                <div data-aos="fade-down" data-aos-duration="2000"
+                                    class="bg-color position-absolute top-50 start-50 translate-middle col-7">
+                                    <a href="#" class="text-reset text-decoration-none"><span
+                                            class="fs-2 italiana">CUSTOM</span></a>
+                                    <h6 class="fs-6">ALTERATION SERVICES</h6>
+                                </div>
+                            </div>
+                            <div class="description-img position-relative col-12 col-sm-4 col-md-4 mt-3">
+                                <img data-aos="fade-up" data-aos-duration="1000" class="w-100"
+                                    src="assets/img/person.jpg">
+                                <div data-aos="fade-down" data-aos-duration="2000"
+                                    class="bg-color position-absolute top-50 start-50 translate-middle col-7">
+                                    <a href="#" class="text-reset text-decoration-none"><span
+                                            class="fs-2 italiana">UNIFORM RETAIL</span></a>
+                                    <h6 class="fs-6">ALTERATION SERVICES</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 'bottom banner' -->
+            <div class="bottom-banner position-relative col-md-12 col-sm-12 col-12">
+                <img class="banner w-100 h-100" src="assets/img/banner.jpg" title="background banner"
+                    alt="background banner">
+                <div
+                    class="banner-boxes position-absolute d-flex flex-wrap justify-content-center top-50 start-50 translate-middle col-md-10 col-sm-10 col-10">
+
+                    <div data-aos="zoom-in" data-aos-duration="1000"
+                        class="banner-box text-center col-md-3 col-sm-3 col-6 mb-3">
+                        <div class="box-img">
+                            <img class="mb-3" src="assets/img/banner inner/1.png">
+                        </div>
+                        <div class="box-description">
+                            <h3 class="italiana mb-3">THIS IS THE HEADING</h3>
+                            <span class="mb-3">Lorem ipsum dolor amet consectus est senectus lacus vulputate.</span>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000"
+                        class="banner-box text-center col-md-3 col-sm-3 col-6 mb-3">
+                        <div class="box-img">
+                            <img class="mb-3" src="assets/img/banner inner/2.png">
+                        </div>
+                        <div class="box-description">
+                            <h3 class="italiana mb-3">SECURE CHECKOUT</h3>
+                            <span class="mb-3">Lorem ipsum dolor amet consectus est senectus lacus vulputate.</span>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000"
+                        class="banner-box text-center col-md-3 col-sm-3 col-6 mb-3">
+                        <div class="box-img">
+                            <img class="mb-3" src="assets/img/banner inner/3.png">
+                        </div>
+                        <div class="box-description">
+                            <h3 class="italiana mb-3">ECO FRIENDLY</h3>
+                            <span class="mb-3">Lorem ipsum dolor amet consectus est senectus lacus vulputate.</span>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000"
+                        class="banner-box text-center col-md-3 col-sm-3 col-6 mb-3">
+                        <div class="box-img">
+                            <img class="mb-3" src="assets/img/banner inner/4.png">
+                        </div>
+                        <div class="box-description">
+                            <h3 class="italiana mb-3">FAST SHIPPING</h3>
+                            <span class="mb-3">Lorem ipsum dolor amet consectus est senectus lacus vulputate.</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 'location content' -->
+            <div class="location-content col-md-12 col-sm-12 col-12 pt-3 mb-3">
+                <div class="description position-relative mt-3">
+                    <div data-aos="fade-down" data-aos-duration="1000"
+                        class="description-img p-0 col-md-12 col-sm-12 col-12">
+                        <img class="w-100" src="assets/img/4.jpg" title="LOCATION" alt="LOCATION">
+                    </div>
+                    <div class="d-sm-flex justify-content-end">
+                        <div data-aos="fade-up" data-aos-duration="1000"
+                            class="description-note col-md-6 col-sm-6 col-12">
+                            <span class="mx-auto fw-lighter h6">LOCATION</span>
+                            <hr>
+                            <h4 class="display-3 italiana">LOCATED NEW YORK CITY</h4>
+                            <p class="fs-6 mt-3 mb-3">Sed sapien neque lectus quis sit odio. Pulvinar donec a id a.
+                                Libero
+                                purus proin ut egestas quis posuere. Mauris at amet tempor rhoncus. Proin odio sed
+                                scelerisque suspendisse sagittis Lorem ipsum dolor sit.</p>
+                            <a href="#"><button class="btn mt-3" id="learnMoreBtn">VIEW ALL LOCATIONS</button></a>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" class="location p-0 col-md-5 col-sm-5 col-12">
+                            <iframe class="h-75 w-100"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19868.373358018045!2d-0.11951900000000001!3d51.503186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sus!4v1705400009509!5m2!1sen!2sus"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="dots-img position-absolute d-none d-xl-block">
+                        <img class="me-3" src="assets/img/dots.png">
+                        <img class="ms-3" src="assets/img/dots.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 'testimonials content' -->
+            <div class="testimonials-bg">
+                <div class="testimonials-content col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
+                    <div class="description text-center">
+                        <div data-aos="fade-down" data-aos-duration="1000" class="title mb-3 mx-auto">
+                            <span>TESTIMONIALS</span>
+                            <hr>
+                            <h2 class="display-3">OUR CLIENTS LOVE US</h2>
+                            <p class="mb-3 fs-6 mt-3">Lorem ipsum dolor sit amet conse est senectus lacus vulputate
+                                tempus.
+                            </p>
+                        </div>
+                        <div class="description-image row mt-5">
+                            <div class="dots-img d-flex justify-content-start mb-3">
+                                <img src="assets/img/dots.png">
+                            </div>
+                            <div class="d-sm-flex justify-content-between p-0">
+                                <div class="description-img col-lg-6 col-sm-6 col-12 row p-0 mb-2">
+                                    <div data-aos="fade-down" data-aos-duration="1000"
+                                        class="col-lg-4 col-sm-4 col-3 h-100 aos-init aos-animate">
+                                        <img class="w-100" src="assets/img/testimonials1.jpeg">
+                                    </div>
+
+                                    <div data-aos="fade-up" data-aos-duration="1000"
+                                        class="description-note col-lg-8 col-sm-8 col-9 text-start aos-init aos-animate">
+                                        <div class="title mb-3">
+                                            <span class="fs-5">MARK LAMFUS - SAN DIEGO</span>
+                                        </div>
+                                        <div class="text mb-3 mt-4">
+                                            <p class="fs-6">Sed sapien neque lectus quis sit odio. Pulvinar donec a id
+                                                a.
+                                                Libero purus proin
+                                                ut egestas quis posuere. Mauris at amet tempor rhoncus. Proin odio sed
+                                                scelerisque suspendisse sagittis Lorem ipsum dolor sit.</p>
+                                        </div>
+                                        <div class="widgets mt-4">
+                                            <img src="assets/img/quote.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="description-img col-lg-6 col-sm-6 col-12 row p-0 mb-2">
+                                    <div data-aos="fade-down" data-aos-duration="1000"
+                                        class="col-lg-4 col-sm-4 col-3 h-100 aos-init aos-animate">
+                                        <img class="w-100" src="assets/img/testimonials2.jpeg">
+                                    </div>
+
+                                    <div data-aos="fade-up" data-aos-duration="1000"
+                                        class="description-note col-lg-8 col-sm-8 col-9 text-start aos-init aos-animate">
+                                        <div class="title mb-3">
+                                            <span class="fs-5">MARK LAMFUS - SAN DIEGO</span>
+                                        </div>
+                                        <div class="text mb-3 mt-4">
+                                            <p class="fs-6">Sed sapien neque lectus quis sit odio. Pulvinar donec a id
+                                                a.
+                                                Libero purus proin
+                                                ut egestas quis posuere. Mauris at amet tempor rhoncus. Proin odio sed
+                                                scelerisque suspendisse sagittis Lorem ipsum dolor sit.</p>
+                                        </div>
+                                        <div class="widgets mt-4">
+                                            <img src="assets/img/quote.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dots-img d-flex justify-content-end mt-2">
+                                <img class="" src="assets/img/dots.png">
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" class="button">
+                            <a href="#"><button class="btn text-nowrap" id="learnMoreBtn">VIEW ALL
+                                    TESTIMONIALS</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 'gallery content' -->
+            <div class="gellery-content col-md-12 col-sm-12 col-11 mx-auto">
+                <div class="description row mx-0 justify-content-between">
+                    <div data-aos="fade-right" data-aos-duration="1000"
+                        class="description-note position-relative col-md-5 col-sm-5 col-12 p-0 aos-init aos-animate">
+                        <span>GALLERY</span>
+                        <hr>
+                        <h2 class="display-3 mt-4">VIEW OUR GALLERY</h2>
+                        <p class="mb-3 fs-6 mt-4">Lorem ipsum dolor sit amet consectetur. Lectus est senectus lacus
+                            vulputate erat tempus aenean adipiscing. Eu massa maecenas lorem massa quis fusce. Eget
+                            risus vitae pretium ut egestas lorem in. Vitae placerat elementum arcu nisi
+                        </p>
+                        <a href="#"><button class="btn mt-5" id="learnMoreBtn">VIEW ALL</button></a>
+                        <div class="dots-img position-absolute d-none d-xl-block">
+                            <img src="assets/img/dots.png">
+                        </div>
+                    </div>
+                    <div
+                        class="description-images d-flex flex-wrap flex-row justify-content-between col-md-7 col-sm-7 col-12 p-0 mt-4">
+                        <div class="col-md-6 col-sm-6 col-6 aos-init aos-animate">
+                            <img data-aos="zoom-in-up" data-aos-duration="1000" class="w-100 me-2 mb-2"
+                                src="assets/img/gallery1.jpeg">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6 aos-init aos-animate">
+                            <img data-aos="zoom-in-up" data-aos-duration="1000" class="w-100 ms-2 mb-2"
+                                src="assets/img/gallery2.jpeg">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6 aos-init aos-animate">
+                            <img data-aos="zoom-in-up" data-aos-duration="1000" class="w-100 me-2"
+                                src="assets/img/gallery3.jpeg">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6 aos-init aos-animate">
+                            <img data-aos="zoom-in-up" data-aos-duration="1000" class="w-100 ms-2"
+                                src="assets/img/gallery4.jpeg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 'blog content' -->
+            <div class="blog-content col-md-12 col-sm-12 col-12">
+                <div data-aos="fade-down" data-aos-duration="1000"
+                    class="description col-12 d-sm-flex justify-content-between align-items-center">
+                    <div class="description-note mb-5 col-md-10 col-sm-10 col-12">
+                        <span>BLOG</span>
+                        <hr>
+                        <h2 class="display-3 mt-3">LATEST NEWS & BLOG</h2>
+                        <p class="mb-3 fs-6 mt-2">Lorem ipsum dolor sit amet conse est senectus lacus vulputate tempus.
+                        </p>
+                    </div>
+                    <div class="button col-md-2 col-sm-2 col-4 mb-5">
+                        <a href="#"><button class="btn text-nowrap col-12" id="learnMoreBtn">VIEW ALL</button></a>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    class="description-images d-flex flex-wrap justify-content-between col-md-12 col-sm-12 col-12">
+                    <div class="post d-flex flex-column mb-3 col-md-3 col-sm-3 col-6">
+                        <img class="w-100 pe-2 pb-2" src="assets/img/blog1.jpeg">
+                        <div class="post-info w-100 mt-2">
+                            <div class="post-title h-100">
+                                <h3 class="fs-5">History Of The Pinstripe Suit</h3>
+                            </div>
+                            <div class="post-data">
+                                <span>May 23, 2023 </span>
+                                <span>No Comments</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post d-flex flex-column mb-3 col-md-3 col-sm-3 col-6">
+                        <img class="w-100 pe-2 pb-2" src="assets/img/blog2.jpeg">
+                        <div class="post-info w-100 mt-2">
+                            <div class="post-title">
+                                <h3 class="fs-5">Garment In Detail - Bamboo Jacket</h3>
+                            </div>
+                            <div class="post-data">
+                                <span>May 23, 2023 </span>
+                                <span>No Comments</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post d-flex flex-column mb-3 col-md-3 col-sm-3 col-6">
+                        <img class="w-100 pe-2 pb-2" src="assets/img/blog3.jpeg">
+                        <div class="post-info w-100 mt-2">
+                            <div class="post-title h-100">
+                                <h3 class="fs-5">History Of The Pinstripe Suit</h3>
+                            </div>
+                            <div class="post-data">
+                                <span>May 23, 2023 </span>
+                                <span>No Comments</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post d-flex flex-column mb-3 col-md-3 col-sm-3 col-6">
+                        <img class="w-100 pb-2" src="assets/img/blog4.jpeg">
+                        <div class="post-info w-100 mt-2">
+                            <div class="post-title h-100">
+                                <h3 class="fs-5">Iconic suits from the film industry</h3>
+                            </div>
+                            <div class="post-data">
+                                <span>May 23, 2023 </span>
+                                <span>No Comments</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 'footer' -->
+    <div class="footer-bg mx-auto">
+
+        <div class="footer-content col-md-10 col-sm-10 col-11 mx-auto row p-0">
+            <div class="logo-column col-md-3 col-sm-6 col-12 mb-3">
+                <div class="logo mb-4">
+                    <img class="w-100" src="assets/img/Logo.png">
+                </div>
+                <div class="text mt-4 mb-4">
+                    <h5 class="italiana fs-3 mt-4 mb-4">STAY IN TOUCH</h5>
+                    <p class="mt-3 mb-4">Sign up and get discounts, free shipping, fashion tips and tricks for
+                        every season.</p>
+                </div>
+                <div class="email-form mb-3">
+                    <div class="row mb-3 ms-0 col-12 d-flex flex-row align-items-center">
+                        <div class="col-md-10 col-sm-10 col-10 ps-0">
+                            <input type="email" class="col-md-10 p-2 w-100" id="colFormLabel"
+                                placeholder="Email address">
+                        </div>
+                        <!-- <div class="col-2 button"> -->
+                        <button type="submit" class="btn col-md-2 col-sm-2 col-2 button"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                class="bi bi-send w-100" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
+                            </svg></button>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="social-icons d-flex col-md-4 col-sm-6 col-6 justify-content-between mt-4">
+                    <div>
+                        <a class="social-icon me-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="white"
+                                class="bi bi-facebook me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social-icon me-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="white"
+                                class="bi bi-twitter me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social-icon me-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="white"
+                                class="bi bi-instagram me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social-icon me-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="white"
+                                class="bi bi-linkedin me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social-icon me-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="white"
+                                class="bi bi-youtube me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="address-column col-md-3 col-sm-6 col-6">
+                <p class="mb-2 title">ADDRESS</p>
+                <p class="mt-4 mb-3">768 Market Street San Francisco, CA 64015, United States</p>
+                <p id="email mb-3">info@permakin.com</p>
+                <p id="phone">021-3456-789</p>
+            </div>
+            <div class="services-column col-md-2 col-sm-4 col-6">
+                <p class="mb-2 title">SERVICES</p>
+                <a class="d-block text-decoration-none text-reset mt-4 mb-3" href="#">Men's</a>
+                <a class="d-block text-decoration-none text-reset mb-3" href="#">Women's</a>
+                <a class="d-block text-decoration-none text-reset " href="#">Custom</a>
+            </div>
+            <div class="help-column col-md-2 col-sm-4 col-6 mb-4">
+                <p class="title mb-2">HELP</p>
+                <a class="d-block text-decoration-none text-reset mt-4 mb-3" href="#">FAQ</a>
+                <a class="d-block text-decoration-none text-reset mb-3" href="#">How to pin clothes</a>
+                <a class="d-block text-decoration-none text-reset mb-3" href="#">Refund policy</a>
+                <a class="d-block text-decoration-none text-reset" href="#">Shipping policy</a>
+            </div>
+            <div class="support-column col-md-2 col-sm-4 col-6 mb-4">
+                <p class="title mb-2">SUPPORT LINKS</p>
+                <a class="d-block text-decoration-none text-reset mt-4 mb-3" href="#">Make an
+                    appointment</a>
+                <a class="d-block text-decoration-none text-reset mb-3" href="#">Terms & conditions</a>
+                <a class="d-block text-decoration-none text-reset mb-3" href="#">Privacy policy</a>
+                <a class="d-block text-decoration-none text-reset" href="#">Blog</a>
+            </div>
+            <hr>
+            <span class="fs-6 mt-4 text-center col-md-4 col-sm-9 col-9 mx-auto">© 2023 Permakin. Proudly Crafted By
+                Sarah With &#60;3 </span>
+        </div>
+
+    </div>
+
+    <script src="assets/script/bootstrap.bundle.min.js"></script>
+    <script src="assets/script/index.js"></script>
+    <script src="assets/script/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
